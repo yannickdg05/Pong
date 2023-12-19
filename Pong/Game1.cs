@@ -158,7 +158,7 @@ namespace Pong
                 0f
                 );
             _spriteBatch.Draw(
-                barTexture, new Vector2(0, 0), Color.Red);
+                barTexture, new Vector2(0, 0), Color.White);
             _spriteBatch.End();
 
             base.Draw(gameTime);
