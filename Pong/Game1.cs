@@ -53,22 +53,22 @@ namespace Pong
 
             if (kstate.IsKeyDown(Keys.Up))
             {
-                ballPosition.Y -= ballSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds * 3;
+                ballPosition.Y -= ballSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds * 2;
             }
 
             if (kstate.IsKeyDown(Keys.Down))
             {
-                ballPosition.Y += ballSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds * 3;
+                ballPosition.Y += ballSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds * 2;
             }
 
             if (kstate.IsKeyDown(Keys.Left))
             {
-                ballPosition.X -= ballSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds * 3;
+                ballPosition.X -= ballSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds * 2;
             }
 
             if (kstate.IsKeyDown(Keys.Right))
             {
-                ballPosition.X += ballSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds * 3;
+                ballPosition.X += ballSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds * 2;
             }
 
             if (kstate.IsKeyDown(Keys.W))
